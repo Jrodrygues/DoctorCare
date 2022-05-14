@@ -78,15 +78,13 @@ ScrollReveal({
   distance: '30px',
   duration: 700
 }).reveal(`
-  #home, 
-  #home img, 
-  #home .stats, 
-  #services,
-  #services header,
-  #services .card
-  #about, 
-  #about header, 
-  #about .content`)  
+#home .image, #home .text,
+#about .image, #about .text,
+#services header, #services .card,
+#testimonials header, #testimonials .testimonials
+#contact .text, #contact .links,
+footer .brand, footer .social,
+{ interval: 100 }`)  
 
   /* Testimonials carousel slider swiper */
 const swiper = new Swiper('.swiper-container', {
